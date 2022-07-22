@@ -1,0 +1,85 @@
+ /* --main-yellow:rgba(245, 240, 187, 1);
+    --main-bg-yellow: rgba(196, 223, 170, 1);
+    --main-green: rgba(144, 200, 172, 1);
+    --main-blue: rgba(115, 169, 173, 1); */
+
+ /* :root {
+    --main-yellow:#F5F0BB;
+    --main-bg-yellow: #C4DFAA;
+    --main-green: #90C8AC;
+    --main-blue: #73A9AD;
+ } */
+ 
+ body {
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    font-weight: 400;
+ }
+
+div.container {
+    width: 100vw !important;
+}
+
+.mainHeader {
+    background-color: rgba(245, 240, 187, 1) !important;
+}
+
+a.mainHeader {
+    width: 100vw !important;
+    
+ }
+
+.navbar {
+    background-color: rgba(144, 200, 172, 1) !important;
+    margin-top: -1%;
+}
+
+li.nav-item.right{
+    margin-left: auto !important;
+}   
+
+ul.navbar-nav {
+    font-family: 'Roboto', sans-serif;
+    font-size:larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.mainHeader h2 {
+    font-size: 2.25em;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    font-family: "Rock Salt", cursive;
+    text-shadow: 0px 3px 0px #b2a98f,
+                 0px 10px 8px rgba(0,0,0,0.15),
+                 0px 14px 2px rgba(0,0,0,0.1),
+                 0px 24px 20px rgba(0,0,0,0.1);
+}
+
+.mainHeader h5 {
+    font-size: .85em;
+    padding: 1%;
+}
+
+.mainHeader a, .mainHeader h2 , .mainHeader h5{
+    text-decoration: none !important;
+    list-style-type: none !important;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none !important;
+    list-style-type: none !important;
+} 
+
+li.nav-item button{
+    color: black !important;
+    border-color: black !important;
+}
+
+li.nav-item button:hover {
+    background-color: rgba(245, 240, 187, 1) !important;
+}
+
